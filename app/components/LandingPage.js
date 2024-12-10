@@ -22,14 +22,8 @@ import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import { Code, Zap, Users, BookOpen, ArrowRight } from "lucide-react";
 import { signIn } from "next-auth/react";
-import { Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import { useEffect } from "react";
-
-const geistMono = Geist_Mono({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
 
 export default function LandingPage() {
   useEffect(() => {
@@ -147,7 +141,7 @@ export default function LandingPage() {
               </div>
               <div className="rounded-lg bg-gray-200 dark:bg-gray-700 p-6">
                 <pre
-                  className={`text-sm whitespace-pre-wrap ${geistMono.className}`}
+                  className={`text-sm whitespace-pre-wrap`}
                 >
                   <code>{`
 // Your first CodeBrew program
