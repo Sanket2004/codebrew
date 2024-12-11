@@ -98,7 +98,7 @@ export function EditorPage() {
     <div className="grid md:grid-cols-2 gap-4">
       <Card>
         <CardHeader>
-          <CardTitle className="font-medium text-sm">Code Editor</CardTitle>
+          <CardTitle className="font-medium">Code Editor</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid gap-4">
@@ -146,7 +146,7 @@ export function EditorPage() {
       <div className="h-full grid grid-rows-2 gap-4">
         <Card className="h-full">
           <CardHeader>
-            <CardTitle className="font-medium text-sm">Standard Input</CardTitle>
+            <CardTitle className="font-medium">Standard Input</CardTitle>
           </CardHeader>
           <CardContent>
             <Textarea
@@ -159,7 +159,7 @@ export function EditorPage() {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle className="font-medium text-sm">Standard Output</CardTitle>
+            <CardTitle className="font-medium">Standard Output</CardTitle>
           </CardHeader>
           <CardContent>
             <pre className="whitespace-pre-wrap overflow-auto max-h-40 rounded-lg border p-2 min-h-[9.8rem]">

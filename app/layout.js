@@ -1,11 +1,12 @@
 import "./globals.css";
 import { Providers } from "./provider";
-import { Geist } from "next/font/google";
+import { Crimson_Pro } from "next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
-const geist = Geist({
+const geist = Crimson_Pro({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  // weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["variable"]
 });
 
 export const metadata = {
