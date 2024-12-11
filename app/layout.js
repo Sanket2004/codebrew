@@ -3,10 +3,10 @@ import { Providers } from "./provider";
 import { Crimson_Pro } from "next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
-const geist = Crimson_Pro({
+const crimson = Crimson_Pro({
   subsets: ["latin"],
   // weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  weight: ["variable"]
+  weight: ["variable"],
 });
 
 export const metadata = {
@@ -16,12 +16,18 @@ export const metadata = {
   keywords:
     "online compiler, code editor, programming, JavaScript, Python, Java, coding platform, CodeBrew",
   author: "Sanket Banerjee",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={geist.className}>
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
+      <body className={crimson.className}>
         <Providers>{children}</Providers>
       </body>
     </html>

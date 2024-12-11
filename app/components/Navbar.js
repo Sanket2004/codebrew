@@ -45,7 +45,7 @@ const Navbar = () => {
           width={0}
           height={0}
           alt="CodeBrew Logo"
-          className="w-6 h-6 hover:brightness-50 transition-all hover:drop-shadow-xl"
+          className="w-6 h-6 hover:rotate-90 hover:brightness-50 transition-all hover:drop-shadow-xl"
         />
       </Link>
 
@@ -150,7 +150,7 @@ const Navbar = () => {
                     width={0}
                     height={0}
                     alt="CodeBrew Logo"
-                    className="w-6 h-6 hover:brightness-50 transition-all hover:drop-shadow-xl"
+                    className="w-6 h-6 hover:rotate-90 hover:brightness-50 transition-all hover:drop-shadow-xl"
                   />
                 </Link>
               </DrawerTitle>
