@@ -1,9 +1,9 @@
 import "./globals.css";
 import { Providers } from "./provider";
-import { Crimson_Pro } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
-const crimson = Crimson_Pro({
+const crimson = Space_Grotesk({
   subsets: ["latin"],
   // weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   weight: ["variable"],
